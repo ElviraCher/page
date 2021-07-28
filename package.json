@@ -5,12 +5,15 @@
   "main": "index.js",
   "devDependencies": {
     "eslint": "^7.31.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.1.1",
     "prettier": "^2.3.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier --check . && eslint .",
-    "lint:fix": "prettier --write . && eslint . --fix"
+    "lint:fix": "prettier --write . && eslint . --fix",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/ElviraCher/page/issues"
   },
-  "homepage": "https://github.com/ElviraCher/page#readme"
+  "homepage": "https://github.com/ElviraCher/page#readme",
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
 }
