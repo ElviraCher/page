@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "eslint": "^7.31.0"
+    "eslint": "^7.31.0",
+    "prettier": "^2.3.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "prettier --check . && eslint .",
+    "lint:fix": "prettier --write . && eslint . --fix"
   },
   "repository": {
     "type": "git",
