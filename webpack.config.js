@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'public/index.html',
+      template: 'src/index.html',
     }),
     new MiniCssExtractPlugin(),
   ],
