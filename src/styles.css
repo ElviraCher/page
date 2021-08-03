@@ -8,7 +8,6 @@
   margin: 50px;
   height: 57rem;
   background-color: #17002e;
-  border: #17002e;
 }
 
 header {
@@ -94,12 +93,12 @@ header {
   box-sizing: border-box;
   float: left;
   background-color: aqua;
-  height: 15rem;
+  height: 17rem;
 }
 
 .footer-content {
   display: inline-block;
-  height: 5rem;
+  height: 100%;
   width: 25%;
   padding: 1rem;
   box-sizing: border-box;
