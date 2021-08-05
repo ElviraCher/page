@@ -6,21 +6,23 @@
 
 .container {
   margin: 50px;
-  height: 57rem;
-  background-color: #17002e;
+  min-height: 60rem;
+  max-height: 100%;
 }
 
 header {
-  background-color: aqua;
-  padding: 3rem;
-  display: inline-block;
-  width: 100%;
-  box-sizing: border-box;
+  background-color: #a9ec43;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: start;
+  padding: 2rem;
 }
 
 .logo-container {
-  float: left;
-  width: 38%;
+  padding: 1rem;
+  min-width: 15rem;
+  max-width: 45%;
 }
 
 .logo {
@@ -29,12 +31,10 @@ header {
 }
 
 .top-menu {
-  display: inline-block;
-  float: left;
-  position: relative;
-  top: -0.5rem;
-  left: 2rem;
   font-size: 38px;
+  padding: 1rem;
+  min-width: 15rem;
+  max-width: 45%;
 }
 
 .nav {
@@ -47,23 +47,16 @@ header {
 }
 
 .main-part {
-  position: relative;
-  box-sizing: border-box;
-  width: 100%;
-  height: 28rem;
-  margin: 1rem 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .main-section {
-  display: inline-block;
-  width: 47%;
-  height: 100%;
-  padding: 1rem;
-  box-sizing: border-box;
-  float: left;
-  margin-left: 1rem;
-  margin-right: 1rem;
   background-color: #a2a2d3;
+  padding: 3rem;
+  min-width: 20rem;
+  max-width: 40%;
 }
 
 .main-section__header {
@@ -72,13 +65,9 @@ header {
 }
 
 .extra-section {
-  display: inline-block;
-  width: 25%;
-  height: 100%;
-  padding: 1rem;
-  box-sizing: border-box;
-  float: left;
-  background-color: #ff59e5;
+  padding: 3rem;
+  min-width: 16rem;
+  max-width: 17%;
 }
 
 .main-part__text-content {
@@ -86,21 +75,14 @@ header {
 }
 
 .footer {
-  clear: left;
-  display: block;
-  width: 100%;
-  padding: 1rem;
-  box-sizing: border-box;
-  float: left;
-  background-color: aqua;
-  height: 17rem;
+  background-color: #a9ec43;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .footer-content {
-  display: inline-block;
-  height: 100%;
-  width: 25%;
-  padding: 1rem;
-  box-sizing: border-box;
-  float: left;
+  padding: 2rem;
+  min-width: 10rem;
+  max-width: 20%;
 }
