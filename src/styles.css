@@ -30,14 +30,14 @@ header {
   width: 100%;
 }
 
-.top-menu {
+.nav {
   font-size: 38px;
   padding: 1rem;
   min-width: 15rem;
   max-width: 45%;
 }
 
-.nav {
+.nav__list {
   display: block;
   text-decoration: none;
   padding: 5px;
