@@ -86,3 +86,56 @@ header {
   min-width: 10rem;
   max-width: 20%;
 }
+
+@media screen and (max-width: 1024px) {
+  * {
+    font-size: 105%;
+    text-align: center;
+  }
+  .container {
+    margin: 3rem;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+
+  .logo {
+    width: 50%;
+    align-self: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    align-self: center;
+  }
+
+  .nav__list {
+    margin: 0 1rem;
+    font-size: 60%;
+  }
+
+  .main-part {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .main-section,
+  .extra-section {
+    max-width: 100%;
+  }
+
+  .footer-content {
+    max-width: 100%;
+  }
+}
