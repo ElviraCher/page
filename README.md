@@ -10,4 +10,8 @@
 
 ![alt text](layout.png)
 
+Результат:
+
+![alt text](layout-ready.png)
+
 ###### Страница размещена на [github pages](https://elviracher.github.io/page/)
