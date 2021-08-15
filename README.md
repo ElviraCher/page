@@ -14,4 +14,4 @@
 
 ![alt text](layout-ready.png)
 
-###### Страница размещена на [github pages](https://elviracher.github.io/page/)
+###### Страница размещена на [raw.githack](https://raw.githack.com/ElviraCher/page/gh-pages/index.html) и [github pages](https://elviracher.github.io/page/)
