@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  margin: 50px;
+  min-height: 60rem;
+  max-height: 100%;
+}
+
+header {
+  background-color: #a9ec43;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: start;
+  padding: 2rem;
+}
+
+.logo-container {
+  padding: 1rem;
+  min-width: 15rem;
+  max-width: 45%;
+}
+
+.logo {
+  display: inline-block;
+  width: 100%;
+}
+
+.nav {
+  font-size: 38px;
+  padding: 1rem;
+  min-width: 15rem;
+  max-width: 45%;
+}
+
+.nav__list {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  position: relative;
+  color: midnightblue;
+  box-sizing: border-box;
+}
+
+.main-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-section {
+  background-color: #a2a2d3;
+  padding: 3rem;
+  min-width: 20rem;
+  max-width: 40%;
+}
+
+.main-section__header {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.extra-section {
+  padding: 3rem;
+  min-width: 16rem;
+  max-width: 17%;
+}
+
+.main-part__text-content {
+  padding-bottom: 1rem;
+}
+
+.footer {
+  background-color: #a9ec43;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-content {
+  padding: 2rem;
+  min-width: 10rem;
+  max-width: 20%;
+}
+
+@media screen and (max-width: 1024px) {
+  * {
+    font-size: 105%;
+    text-align: center;
+  }
+  .container {
+    margin: 3rem;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+
+  .logo {
+    width: 50%;
+    align-self: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    align-self: center;
+  }
+
+  .nav__list {
+    margin: 0 1rem;
+    font-size: 60%;
+  }
+
+  .main-part {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .main-section,
+  .extra-section {
+    max-width: 100%;
+  }
+
+  .footer-content {
+    max-width: 100%;
+  }
+}
